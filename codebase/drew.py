@@ -10,7 +10,8 @@ import adafruit_sgp30
 
 # system variables
 upTime = 0
-storeTimer = 0
+global store_timer
+store_timer = 0
 pollInterval = 10
 storeInterval = 1200
 storeFile = '/home/pi/codebase/store.txt'
@@ -57,9 +58,10 @@ def c_to_f(c):
 def sec_to_time(sec):
     return str(datetime.timedelta(seconds=sec))
 
-def set_baseline(sec):
-    if sec >= storeInterval:
-        storeTimer = 0
+def set_baseline():
+    global store_timer
+    if store_timer >= storeInterval:
+        store_timer = 0 
         co2eq_base, tvoc_base = sgp30.baseline_eCO2, sgp30.baseline_TVOC
         temp = open(storeFile, 'w')
         temp.write(str(co2eq_base))
@@ -70,6 +72,7 @@ def set_baseline(sec):
 
 
 while True:
+    
     hum = int(bme280.humidity)
     pres = int(bme280.pressure) # unit: mbar
     #alt = int(bme280.altitude)
@@ -82,9 +85,9 @@ while True:
 
     print('C={0}, T={1}, V={2}, H={3}, P={4}, {5}'.format(co2, c_to_f(temp), voc, hum, pres, sec_to_time(upTime)))
 
-    set_baseline(storeTimer)
-    storeTimer += pollInterval
+    store_timer += pollInterval
     upTime += pollInterval
-    time.sleep(pollInterval)
 
-    
+    set_baseline()
+    time.sleep(pollInterval)
+ 
