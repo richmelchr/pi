@@ -15,11 +15,11 @@
 
 # Command Line History (newest to oldest):
 :wq
-|2,0,1588539861,,"wq"
-:q!
-|2,0,1588530758,,"q!"
+|2,0,1588817434,,"wq"
 :q
-|2,0,1588527562,,"q"
+|2,0,1588566910,,"q"
+:q!
+|2,0,1588539980,,"q!"
 :WQ
 |2,0,1588402010,,"WQ"
 :Q!
@@ -73,38 +73,180 @@
 |3,1,36,0,1,0,1588539556,"="
 
 # File marks:
-'0  11  17  ~/codebase/drew.py
-|4,48,11,17,1588539861,"~/codebase/drew.py"
-'1  19  0  ~/codebase/drew.py
-|4,49,19,0,1588539840,"~/codebase/drew.py"
-'2  19  0  ~/codebase/drew.py
-|4,50,19,0,1588539840,"~/codebase/drew.py"
-'3  81  19  ~/codebase/drew.py
-|4,51,81,19,1588539696,"~/codebase/drew.py"
-'4  81  19  ~/codebase/drew.py
-|4,52,81,19,1588539696,"~/codebase/drew.py"
-'5  81  19  ~/codebase/drew.py
-|4,53,81,19,1588539696,"~/codebase/drew.py"
-'6  81  19  ~/codebase/drew.py
-|4,54,81,19,1588539696,"~/codebase/drew.py"
-'7  63  20  ~/codebase/drew.py
-|4,55,63,20,1588539586,"~/codebase/drew.py"
-'8  63  20  ~/codebase/drew.py
-|4,56,63,20,1588539586,"~/codebase/drew.py"
-'9  63  20  ~/codebase/drew.py
-|4,57,63,20,1588539586,"~/codebase/drew.py"
+'0  125  0  ~/codebase/drew.py
+|4,48,125,0,1588817434,"~/codebase/drew.py"
+'1  75  0  ~/codebase/drew.py
+|4,49,75,0,1588817252,"~/codebase/drew.py"
+'2  77  0  ~/codebase/drew.py
+|4,50,77,0,1588817252,"~/codebase/drew.py"
+'3  89  3  ~/codebase/drew.py
+|4,51,89,3,1588816378,"~/codebase/drew.py"
+'4  89  3  ~/codebase/drew.py
+|4,52,89,3,1588816378,"~/codebase/drew.py"
+'5  91  3  ~/codebase/drew.py
+|4,53,91,3,1588816378,"~/codebase/drew.py"
+'6  91  3  ~/codebase/drew.py
+|4,54,91,3,1588816378,"~/codebase/drew.py"
+'7  90  28  ~/codebase/drew.py
+|4,55,90,28,1588816304,"~/codebase/drew.py"
+'8  89  28  ~/codebase/drew.py
+|4,56,89,28,1588816304,"~/codebase/drew.py"
+'9  90  28  ~/codebase/drew.py
+|4,57,90,28,1588816304,"~/codebase/drew.py"
 
 # Jumplist (newest first):
+-'  125  0  ~/codebase/drew.py
+|4,39,125,0,1588817434,"~/codebase/drew.py"
+-'  1  0  ~/codebase/drew.py
+|4,39,1,0,1588817333,"~/codebase/drew.py"
+-'  75  0  ~/codebase/drew.py
+|4,39,75,0,1588817252,"~/codebase/drew.py"
+-'  77  0  ~/codebase/drew.py
+|4,39,77,0,1588817252,"~/codebase/drew.py"
+-'  1  0  ~/codebase/drew.py
+|4,39,1,0,1588817167,"~/codebase/drew.py"
+-'  89  3  ~/codebase/drew.py
+|4,39,89,3,1588816378,"~/codebase/drew.py"
+-'  91  3  ~/codebase/drew.py
+|4,39,91,3,1588816378,"~/codebase/drew.py"
+-'  91  3  ~/codebase/drew.py
+|4,39,91,3,1588816378,"~/codebase/drew.py"
+-'  1  0  ~/codebase/drew.py
+|4,39,1,0,1588816329,"~/codebase/drew.py"
+-'  90  28  ~/codebase/drew.py
+|4,39,90,28,1588816304,"~/codebase/drew.py"
+-'  92  28  ~/codebase/drew.py
+|4,39,92,28,1588816304,"~/codebase/drew.py"
+-'  92  28  ~/codebase/drew.py
+|4,39,92,28,1588816304,"~/codebase/drew.py"
+-'  91  28  ~/codebase/drew.py
+|4,39,91,28,1588816304,"~/codebase/drew.py"
+-'  1  0  ~/codebase/drew.py
+|4,39,1,0,1588816207,"~/codebase/drew.py"
+-'  126  0  ~/codebase/drew.py
+|4,39,126,0,1588816181,"~/codebase/drew.py"
+-'  132  0  ~/codebase/drew.py
+|4,39,132,0,1588816181,"~/codebase/drew.py"
+-'  131  0  ~/codebase/drew.py
+|4,39,131,0,1588816181,"~/codebase/drew.py"
+-'  132  0  ~/codebase/drew.py
+|4,39,132,0,1588816181,"~/codebase/drew.py"
+-'  131  0  ~/codebase/drew.py
+|4,39,131,0,1588816181,"~/codebase/drew.py"
+-'  131  0  ~/codebase/drew.py
+|4,39,131,0,1588816181,"~/codebase/drew.py"
+-'  1  0  ~/codebase/drew.py
+|4,39,1,0,1588816127,"~/codebase/drew.py"
+-'  124  0  ~/codebase/drew.py
+|4,39,124,0,1588815815,"~/codebase/drew.py"
+-'  130  0  ~/codebase/drew.py
+|4,39,130,0,1588815815,"~/codebase/drew.py"
+-'  131  0  ~/codebase/drew.py
+|4,39,131,0,1588815815,"~/codebase/drew.py"
+-'  130  0  ~/codebase/drew.py
+|4,39,130,0,1588815815,"~/codebase/drew.py"
+-'  130  0  ~/codebase/drew.py
+|4,39,130,0,1588815815,"~/codebase/drew.py"
+-'  130  0  ~/codebase/drew.py
+|4,39,130,0,1588815815,"~/codebase/drew.py"
+-'  1  0  ~/codebase/drew.py
+|4,39,1,0,1588812018,"~/codebase/drew.py"
+-'  1  0  ~/codebase/drew.py
+|4,39,1,0,1588566910,"~/codebase/drew.py"
+-'  1  0  ~/codebase/drew.py
+|4,39,1,0,1588539980,"~/codebase/drew.py"
+-'  14  17  ~/codebase/drew.py
+|4,39,14,17,1588539861,"~/codebase/drew.py"
+-'  11  17  ~/codebase/drew.py
+|4,39,11,17,1588539861,"~/codebase/drew.py"
+-'  14  17  ~/codebase/drew.py
+|4,39,14,17,1588539861,"~/codebase/drew.py"
+-'  11  17  ~/codebase/drew.py
+|4,39,11,17,1588539861,"~/codebase/drew.py"
+-'  14  17  ~/codebase/drew.py
+|4,39,14,17,1588539861,"~/codebase/drew.py"
+-'  11  17  ~/codebase/drew.py
+|4,39,11,17,1588539861,"~/codebase/drew.py"
+-'  14  17  ~/codebase/drew.py
+|4,39,14,17,1588539861,"~/codebase/drew.py"
+-'  11  17  ~/codebase/drew.py
+|4,39,11,17,1588539861,"~/codebase/drew.py"
+-'  14  17  ~/codebase/drew.py
+|4,39,14,17,1588539861,"~/codebase/drew.py"
+-'  11  17  ~/codebase/drew.py
+|4,39,11,17,1588539861,"~/codebase/drew.py"
+-'  14  17  ~/codebase/drew.py
+|4,39,14,17,1588539861,"~/codebase/drew.py"
+-'  11  17  ~/codebase/drew.py
+|4,39,11,17,1588539861,"~/codebase/drew.py"
+-'  11  17  ~/codebase/drew.py
+|4,39,11,17,1588539861,"~/codebase/drew.py"
 -'  11  17  ~/codebase/drew.py
 |4,39,11,17,1588539861,"~/codebase/drew.py"
 -'  1  0  ~/codebase/drew.py
 |4,39,1,0,1588539843,"~/codebase/drew.py"
+-'  33  0  ~/codebase/drew.py
+|4,39,33,0,1588539840,"~/codebase/drew.py"
+-'  19  0  ~/codebase/drew.py
+|4,39,19,0,1588539840,"~/codebase/drew.py"
+-'  35  0  ~/codebase/drew.py
+|4,39,35,0,1588539840,"~/codebase/drew.py"
+-'  19  0  ~/codebase/drew.py
+|4,39,19,0,1588539840,"~/codebase/drew.py"
+-'  35  0  ~/codebase/drew.py
+|4,39,35,0,1588539840,"~/codebase/drew.py"
+-'  19  0  ~/codebase/drew.py
+|4,39,19,0,1588539840,"~/codebase/drew.py"
+-'  35  0  ~/codebase/drew.py
+|4,39,35,0,1588539840,"~/codebase/drew.py"
+-'  19  0  ~/codebase/drew.py
+|4,39,19,0,1588539840,"~/codebase/drew.py"
+-'  35  0  ~/codebase/drew.py
+|4,39,35,0,1588539840,"~/codebase/drew.py"
+-'  19  0  ~/codebase/drew.py
+|4,39,19,0,1588539840,"~/codebase/drew.py"
+-'  35  0  ~/codebase/drew.py
+|4,39,35,0,1588539840,"~/codebase/drew.py"
+-'  19  0  ~/codebase/drew.py
+|4,39,19,0,1588539840,"~/codebase/drew.py"
+-'  19  0  ~/codebase/drew.py
+|4,39,19,0,1588539840,"~/codebase/drew.py"
 -'  19  0  ~/codebase/drew.py
 |4,39,19,0,1588539840,"~/codebase/drew.py"
 -'  19  0  ~/codebase/drew.py
 |4,39,19,0,1588539840,"~/codebase/drew.py"
 -'  1  0  ~/codebase/drew.py
 |4,39,1,0,1588539765,"~/codebase/drew.py"
+-'  111  19  ~/codebase/drew.py
+|4,39,111,19,1588539696,"~/codebase/drew.py"
+-'  79  19  ~/codebase/drew.py
+|4,39,79,19,1588539696,"~/codebase/drew.py"
+-'  110  19  ~/codebase/drew.py
+|4,39,110,19,1588539696,"~/codebase/drew.py"
+-'  117  19  ~/codebase/drew.py
+|4,39,117,19,1588539696,"~/codebase/drew.py"
+-'  81  19  ~/codebase/drew.py
+|4,39,81,19,1588539696,"~/codebase/drew.py"
+-'  116  19  ~/codebase/drew.py
+|4,39,116,19,1588539696,"~/codebase/drew.py"
+-'  117  19  ~/codebase/drew.py
+|4,39,117,19,1588539696,"~/codebase/drew.py"
+-'  81  19  ~/codebase/drew.py
+|4,39,81,19,1588539696,"~/codebase/drew.py"
+-'  116  19  ~/codebase/drew.py
+|4,39,116,19,1588539696,"~/codebase/drew.py"
+-'  81  19  ~/codebase/drew.py
+|4,39,81,19,1588539696,"~/codebase/drew.py"
+-'  116  19  ~/codebase/drew.py
+|4,39,116,19,1588539696,"~/codebase/drew.py"
+-'  81  19  ~/codebase/drew.py
+|4,39,81,19,1588539696,"~/codebase/drew.py"
+-'  116  19  ~/codebase/drew.py
+|4,39,116,19,1588539696,"~/codebase/drew.py"
+-'  81  19  ~/codebase/drew.py
+|4,39,81,19,1588539696,"~/codebase/drew.py"
+-'  81  19  ~/codebase/drew.py
+|4,39,81,19,1588539696,"~/codebase/drew.py"
 -'  81  19  ~/codebase/drew.py
 |4,39,81,19,1588539696,"~/codebase/drew.py"
 -'  81  19  ~/codebase/drew.py
@@ -113,6 +255,32 @@
 |4,39,81,19,1588539696,"~/codebase/drew.py"
 -'  1  0  ~/codebase/drew.py
 |4,39,1,0,1588539668,"~/codebase/drew.py"
+-'  77  20  ~/codebase/drew.py
+|4,39,77,20,1588539586,"~/codebase/drew.py"
+-'  61  20  ~/codebase/drew.py
+|4,39,61,20,1588539586,"~/codebase/drew.py"
+-'  79  20  ~/codebase/drew.py
+|4,39,79,20,1588539586,"~/codebase/drew.py"
+-'  63  20  ~/codebase/drew.py
+|4,39,63,20,1588539586,"~/codebase/drew.py"
+-'  79  20  ~/codebase/drew.py
+|4,39,79,20,1588539586,"~/codebase/drew.py"
+-'  63  20  ~/codebase/drew.py
+|4,39,63,20,1588539586,"~/codebase/drew.py"
+-'  79  20  ~/codebase/drew.py
+|4,39,79,20,1588539586,"~/codebase/drew.py"
+-'  63  20  ~/codebase/drew.py
+|4,39,63,20,1588539586,"~/codebase/drew.py"
+-'  79  20  ~/codebase/drew.py
+|4,39,79,20,1588539586,"~/codebase/drew.py"
+-'  63  20  ~/codebase/drew.py
+|4,39,63,20,1588539586,"~/codebase/drew.py"
+-'  79  20  ~/codebase/drew.py
+|4,39,79,20,1588539586,"~/codebase/drew.py"
+-'  63  20  ~/codebase/drew.py
+|4,39,63,20,1588539586,"~/codebase/drew.py"
+-'  63  20  ~/codebase/drew.py
+|4,39,63,20,1588539586,"~/codebase/drew.py"
 -'  63  20  ~/codebase/drew.py
 |4,39,63,20,1588539586,"~/codebase/drew.py"
 -'  63  20  ~/codebase/drew.py
@@ -123,286 +291,118 @@
 |4,39,63,20,1588539586,"~/codebase/drew.py"
 -'  1  0  ~/codebase/drew.py
 |4,39,1,0,1588539519,"~/codebase/drew.py"
--'  90  0  ~/codebase/drew.py
-|4,39,90,0,1588539463,"~/codebase/drew.py"
--'  90  0  ~/codebase/drew.py
-|4,39,90,0,1588539463,"~/codebase/drew.py"
--'  90  0  ~/codebase/drew.py
-|4,39,90,0,1588539463,"~/codebase/drew.py"
--'  90  0  ~/codebase/drew.py
-|4,39,90,0,1588539463,"~/codebase/drew.py"
--'  90  0  ~/codebase/drew.py
-|4,39,90,0,1588539463,"~/codebase/drew.py"
--'  1  0  ~/codebase/drew.py
-|4,39,1,0,1588539431,"~/codebase/drew.py"
--'  18  0  ~/codebase/drew.py
-|4,39,18,0,1588539392,"~/codebase/drew.py"
--'  18  0  ~/codebase/drew.py
-|4,39,18,0,1588539392,"~/codebase/drew.py"
--'  18  0  ~/codebase/drew.py
-|4,39,18,0,1588539392,"~/codebase/drew.py"
--'  18  0  ~/codebase/drew.py
-|4,39,18,0,1588539392,"~/codebase/drew.py"
--'  18  0  ~/codebase/drew.py
-|4,39,18,0,1588539392,"~/codebase/drew.py"
--'  18  0  ~/codebase/drew.py
-|4,39,18,0,1588539392,"~/codebase/drew.py"
--'  1  0  ~/codebase/drew.py
-|4,39,1,0,1588539247,"~/codebase/drew.py"
--'  64  20  ~/codebase/drew.py
-|4,39,64,20,1588539208,"~/codebase/drew.py"
--'  64  20  ~/codebase/drew.py
-|4,39,64,20,1588539208,"~/codebase/drew.py"
--'  64  20  ~/codebase/drew.py
-|4,39,64,20,1588539208,"~/codebase/drew.py"
--'  64  20  ~/codebase/drew.py
-|4,39,64,20,1588539208,"~/codebase/drew.py"
--'  64  20  ~/codebase/drew.py
-|4,39,64,20,1588539208,"~/codebase/drew.py"
--'  64  20  ~/codebase/drew.py
-|4,39,64,20,1588539208,"~/codebase/drew.py"
--'  64  20  ~/codebase/drew.py
-|4,39,64,20,1588539208,"~/codebase/drew.py"
--'  1  0  ~/codebase/drew.py
-|4,39,1,0,1588539194,"~/codebase/drew.py"
--'  65  3  ~/codebase/drew.py
-|4,39,65,3,1588539177,"~/codebase/drew.py"
--'  65  3  ~/codebase/drew.py
-|4,39,65,3,1588539177,"~/codebase/drew.py"
--'  65  3  ~/codebase/drew.py
-|4,39,65,3,1588539177,"~/codebase/drew.py"
--'  65  3  ~/codebase/drew.py
-|4,39,65,3,1588539177,"~/codebase/drew.py"
--'  65  3  ~/codebase/drew.py
-|4,39,65,3,1588539177,"~/codebase/drew.py"
--'  65  3  ~/codebase/drew.py
-|4,39,65,3,1588539177,"~/codebase/drew.py"
--'  65  3  ~/codebase/drew.py
-|4,39,65,3,1588539177,"~/codebase/drew.py"
--'  65  3  ~/codebase/drew.py
-|4,39,65,3,1588539177,"~/codebase/drew.py"
--'  1  0  ~/codebase/drew.py
-|4,39,1,0,1588539164,"~/codebase/drew.py"
--'  73  0  ~/codebase/drew.py
-|4,39,73,0,1588539157,"~/codebase/drew.py"
--'  73  0  ~/codebase/drew.py
-|4,39,73,0,1588539157,"~/codebase/drew.py"
--'  73  0  ~/codebase/drew.py
-|4,39,73,0,1588539157,"~/codebase/drew.py"
--'  73  0  ~/codebase/drew.py
-|4,39,73,0,1588539157,"~/codebase/drew.py"
--'  73  0  ~/codebase/drew.py
-|4,39,73,0,1588539157,"~/codebase/drew.py"
--'  73  0  ~/codebase/drew.py
-|4,39,73,0,1588539157,"~/codebase/drew.py"
--'  73  0  ~/codebase/drew.py
-|4,39,73,0,1588539157,"~/codebase/drew.py"
--'  73  0  ~/codebase/drew.py
-|4,39,73,0,1588539157,"~/codebase/drew.py"
--'  73  0  ~/codebase/drew.py
-|4,39,73,0,1588539157,"~/codebase/drew.py"
--'  1  0  ~/codebase/drew.py
-|4,39,1,0,1588539128,"~/codebase/drew.py"
--'  87  0  ~/codebase/drew.py
-|4,39,87,0,1588539105,"~/codebase/drew.py"
--'  87  0  ~/codebase/drew.py
-|4,39,87,0,1588539105,"~/codebase/drew.py"
--'  87  0  ~/codebase/drew.py
-|4,39,87,0,1588539105,"~/codebase/drew.py"
--'  87  0  ~/codebase/drew.py
-|4,39,87,0,1588539105,"~/codebase/drew.py"
--'  87  0  ~/codebase/drew.py
-|4,39,87,0,1588539105,"~/codebase/drew.py"
--'  87  0  ~/codebase/drew.py
-|4,39,87,0,1588539105,"~/codebase/drew.py"
--'  90  0  ~/codebase/drew.py
-|4,39,90,0,1588539105,"~/codebase/drew.py"
--'  90  0  ~/codebase/drew.py
-|4,39,90,0,1588539105,"~/codebase/drew.py"
--'  90  0  ~/codebase/drew.py
-|4,39,90,0,1588539105,"~/codebase/drew.py"
--'  90  0  ~/codebase/drew.py
-|4,39,90,0,1588539105,"~/codebase/drew.py"
--'  1  0  ~/codebase/drew.py
-|4,39,1,0,1588539005,"~/codebase/drew.py"
--'  72  0  ~/codebase/drew.py
-|4,39,72,0,1588538946,"~/codebase/drew.py"
--'  72  0  ~/codebase/drew.py
-|4,39,72,0,1588538946,"~/codebase/drew.py"
--'  72  0  ~/codebase/drew.py
-|4,39,72,0,1588538946,"~/codebase/drew.py"
--'  72  0  ~/codebase/drew.py
-|4,39,72,0,1588538946,"~/codebase/drew.py"
--'  72  0  ~/codebase/drew.py
-|4,39,72,0,1588538946,"~/codebase/drew.py"
--'  72  0  ~/codebase/drew.py
-|4,39,72,0,1588538946,"~/codebase/drew.py"
--'  72  0  ~/codebase/drew.py
-|4,39,72,0,1588538946,"~/codebase/drew.py"
--'  72  0  ~/codebase/drew.py
-|4,39,72,0,1588538946,"~/codebase/drew.py"
--'  72  0  ~/codebase/drew.py
-|4,39,72,0,1588538946,"~/codebase/drew.py"
--'  72  0  ~/codebase/drew.py
-|4,39,72,0,1588538946,"~/codebase/drew.py"
--'  72  0  ~/codebase/drew.py
-|4,39,72,0,1588538946,"~/codebase/drew.py"
--'  1  0  ~/codebase/drew.py
-|4,39,1,0,1588538765,"~/codebase/drew.py"
--'  16  17  ~/codebase/drew.py
-|4,39,16,17,1588538699,"~/codebase/drew.py"
--'  16  17  ~/codebase/drew.py
-|4,39,16,17,1588538699,"~/codebase/drew.py"
--'  16  17  ~/codebase/drew.py
-|4,39,16,17,1588538699,"~/codebase/drew.py"
--'  16  17  ~/codebase/drew.py
-|4,39,16,17,1588538699,"~/codebase/drew.py"
--'  16  17  ~/codebase/drew.py
-|4,39,16,17,1588538699,"~/codebase/drew.py"
--'  16  17  ~/codebase/drew.py
-|4,39,16,17,1588538699,"~/codebase/drew.py"
--'  16  17  ~/codebase/drew.py
-|4,39,16,17,1588538699,"~/codebase/drew.py"
--'  16  17  ~/codebase/drew.py
-|4,39,16,17,1588538699,"~/codebase/drew.py"
--'  16  17  ~/codebase/drew.py
-|4,39,16,17,1588538699,"~/codebase/drew.py"
--'  16  17  ~/codebase/drew.py
-|4,39,16,17,1588538699,"~/codebase/drew.py"
--'  16  17  ~/codebase/drew.py
-|4,39,16,17,1588538699,"~/codebase/drew.py"
--'  16  17  ~/codebase/drew.py
-|4,39,16,17,1588538699,"~/codebase/drew.py"
--'  1  0  ~/codebase/drew.py
-|4,39,1,0,1588538676,"~/codebase/drew.py"
--'  16  17  ~/codebase/drew.py
-|4,39,16,17,1588538251,"~/codebase/drew.py"
--'  1  0  ~/codebase/drew.py
-|4,39,1,0,1588538164,"~/codebase/drew.py"
--'  93  0  ~/codebase/drew.py
-|4,39,93,0,1588538097,"~/codebase/drew.py"
--'  92  0  ~/codebase/drew.py
-|4,39,92,0,1588538097,"~/codebase/drew.py"
--'  93  0  ~/codebase/drew.py
-|4,39,93,0,1588538097,"~/codebase/drew.py"
--'  92  0  ~/codebase/drew.py
-|4,39,92,0,1588538097,"~/codebase/drew.py"
--'  93  0  ~/codebase/drew.py
-|4,39,93,0,1588538097,"~/codebase/drew.py"
--'  92  0  ~/codebase/drew.py
-|4,39,92,0,1588538097,"~/codebase/drew.py"
--'  93  0  ~/codebase/drew.py
-|4,39,93,0,1588538097,"~/codebase/drew.py"
--'  92  0  ~/codebase/drew.py
-|4,39,92,0,1588538097,"~/codebase/drew.py"
+-'  120  0  ~/codebase/drew.py
+|4,39,120,0,1588539463,"~/codebase/drew.py"
+-'  88  0  ~/codebase/drew.py
+|4,39,88,0,1588539463,"~/codebase/drew.py"
 
 # History of marks within files (newest to oldest):
 
 > ~/codebase/drew.py
-	*	1588539859	0
-	"	11	17
-	^	11	18
-	.	13	18
-	+	84	53
-	+	84	0
-	+	83	0
-	+	61	7
-	+	62	7
-	+	64	7
-	+	17	39
-	+	64	28
-	+	35	21
-	+	71	30
-	+	50	13
-	+	26	0
+	*	1588817433	0
+	"	125	0
+	^	125	0
+	.	101	0
+	+	103	4
+	+	104	3
+	+	106	7
+	+	107	7
+	+	108	7
+	+	110	7
+	+	111	7
+	+	113	7
+	+	114	7
+	+	116	7
+	+	118	7
+	+	119	7
+	+	121	7
+	+	122	7
+	+	125	1
+	+	128	8
+	+	125	0
+	+	129	0
+	+	100	32
+	+	87	53
+	+	100	28
+	+	100	45
+	+	99	3
+	+	88	25
+	+	98	13
+	+	88	25
+	+	88	12
+	+	99	4
+	+	90	97
+	+	90	86
+	+	91	19
+	+	98	12
+	+	97	18
+	+	93	19
+	+	94	21
+	+	95	19
+	+	96	19
+	+	97	21
+	+	93	24
+	+	87	18
+	+	94	26
+	+	93	25
+	+	94	27
+	+	95	25
+	+	96	25
+	+	97	28
+	+	99	4
+	+	98	17
+	+	88	19
+	+	90	34
+	+	88	21
+	+	90	43
+	+	90	60
+	+	90	7
+	+	90	42
+	+	90	63
+	+	90	92
+	+	91	8
+	+	92	8
+	+	93	8
+	+	94	8
+	+	95	8
+	+	96	8
+	+	97	8
+	+	98	8
+	+	90	0
+	+	99	4
+	+	98	9
+	+	99	0
+	+	100	0
+	+	101	0
+	+	122	8
+	+	124	7
+	+	122	0
+	+	123	0
+	+	122	21
+	+	94	31
+	+	122	16
+	+	87	12
+	+	122	43
+	+	87	39
+	+	97	24
+	+	122	43
+	+	87	39
+	+	30	59
+	+	31	0
+	+	90	28
+	+	89	3
+	+	88	21
+	+	90	8
+	+	90	42
+	+	90	63
+	+	90	92
+	+	90	8
+	+	31	18
 	+	32	0
-	+	27	0
-	+	51	0
-	+	76	0
-	+	62	16
-	+	61	26
-	+	16	17
-	+	62	19
-	+	64	14
-	+	12	16
-	+	64	8
-	+	12	10
-	+	64	16
-	+	64	24
-	+	15	0
-	+	12	28
-	+	64	8
-	+	64	34
-	+	92	21
-	+	91	34
-	+	12	10
-	+	91	17
-	+	92	4
-	+	87	21
-	+	64	17
-	+	64	25
-	+	12	28
-	+	13	14
-	+	64	8
-	+	87	3
-	+	61	22
-	+	62	12
-	+	64	9
-	+	65	0
-	+	71	44
-	+	91	17
+	+	33	0
+	+	31	0
 	+	91	0
-	+	71	32
-	+	91	17
-	+	64	23
-	+	71	29
-	+	91	4
-	+	13	0
-	+	64	21
-	+	63	3
-	+	62	21
-	+	75	21
-	+	13	0
-	+	75	22
-	+	71	44
-	+	71	30
-	+	71	49
-	+	71	30
-	+	71	29
-	+	71	30
-	+	72	0
-	+	13	15
-	+	76	0
-	+	91	17
-	+	13	0
-	+	61	17
-	+	63	17
-	+	13	0
-	+	13	18
-	+	14	14
-	+	75	3
-	+	16	19
-	+	63	20
-	+	16	17
-	+	84	53
-	+	84	56
-	+	84	29
-	+	86	0
-	+	92	4
-	+	94	0
-	+	63	20
-	+	88	28
-	+	89	26
-	+	88	3
-	+	85	0
-	+	91	0
-	+	14	14
-	+	16	16
-	+	63	20
-	+	16	19
-	+	13	21
-	+	14	0
-	+	13	18
+	+	101	0
 
 > ~/.vimrc
 	*	1588527657	0

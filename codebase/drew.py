@@ -7,6 +7,9 @@ import busio
 import adafruit_bme280
 import datetime
 import adafruit_sgp30
+import sys
+import datetime
+from influxdb import InfluxDBClient
 
 # system variables
 upTime = 0
@@ -15,6 +18,17 @@ store_timer = 0
 pollInterval = 10
 storeInterval = 1200
 storeFile = '/home/pi/codebase/store.txt'
+
+# Configure InfluxDB connection variables
+host = "192.168.0.26"
+port = 8086 # default port
+user = "pi"
+password = "gt46u76t"
+dbname = "sensor_data"
+
+# Create the InfluxDB client object
+client = InfluxDBClient(host, port, user, password, dbname)
+measurement = "rpi"
 
 # SenseAir S8 | co2
 ser = serial.Serial("/dev/ttyS0", baudrate=9600, timeout=.5)
@@ -70,24 +84,47 @@ def set_baseline():
         temp.close()
         print("new baseline")
 
+def send_data(co2, temp, voc, hum, pres):
+    iso = time.ctime()
+    data = [{
+        "measurement":measurement,
+        "time":iso,
+        "fields": {
+            "co2":co2,
+            "temp":c_to_f(temp),
+            "voc":voc,
+            "hum":hum,
+            "press":pres
+        }
+    }]
+    client.write_points(data)
 
-while True:
+
+try: 
+    while True:
     
-    hum = int(bme280.humidity)
-    pres = int(bme280.pressure) # unit: mbar
-    #alt = int(bme280.altitude)
+        hum = int(bme280.humidity)
+        pres = int(bme280.pressure) # unit: mbar
+        #alt = int(bme280.altitude)
  
-    voc = sgp30.TVOC
-    #C2 = sgp30.eCO2
+        voc = sgp30.TVOC
+        #C2 = sgp30.eCO2
 
-    co2 = getCO2()
-    temp = mcp.readTempC()
+        co2 = getCO2()
+        temp = mcp.readTempC()
 
-    print('C={0}, T={1}, V={2}, H={3}, P={4}, {5}'.format(co2, c_to_f(temp), voc, hum, pres, sec_to_time(upTime)))
+        print('C={0}, T={1}, V={2}, H={3}, P={4}, {5}'.format(co2, c_to_f(temp), voc, hum, pres, sec_to_time(upTime)))
 
-    store_timer += pollInterval
-    upTime += pollInterval
+        store_timer += pollInterval
+        upTime += pollInterval
 
-    set_baseline()
-    time.sleep(pollInterval)
+        set_baseline()
+        send_data(co2, temp, voc, hum, pres)        
+
+        time.sleep(pollInterval)
+
  
+except KeyboardInterrupt:
+    pass
+
+

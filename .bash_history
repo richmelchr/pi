@@ -1147,3 +1147,197 @@ Plug 'crusoexia/vim-monokai'
 vim ~/.vimrc 
 vim codebase/drew.py 
 exit
+vi codebase/drew.py 
+cd /.vim/
+vi ~/.vimrc
+vi codebase/drew.py 
+vim codebase/drew.py 
+vi ~/.vimrc
+vim codebase/drew.py 
+vi ~/.vimrc
+vim codebase/drew.py 
+vim ~/.vimrc
+vim codebase/drew.py 
+vim ~/.vimrc
+ls
+cd vim-monokai/
+ls
+cd ~
+vi codebase/drew.py 
+python3 codebase/drew.py 
+vi codebase/drew.py 
+python3 codebase/drew.py 
+vi codebase/drew.py 
+python3 codebase/drew.py 
+vi codebase/drew.py 
+python3 codebase/drew.py 
+vi codebase/drew.py 
+python3 codebase/drew.py 
+vi codebase/drew.py 
+python3 codebase/drew.py 
+vi codebase/drew.py 
+python3 codebase/drew.py 
+vi codebase/drew.py 
+python3 codebase/drew.py 
+vi codebase/drew.py 
+python3 codebase/drew.py 
+vi codebase/drew.py 
+python3 codebase/drew.py 
+cd codebase/
+ls
+cd ../
+ls
+ls Pimoroni/
+ls -l Pimoroni/
+ls -a Pimoroni/
+rm Pimoroni/
+mkdir test
+cp Pimoroni/ test/
+ls
+ls test/
+cp -r Pimoroni/ test/
+ls
+ls test/
+rm -rf Pimoroni/
+ls
+cd codebase/
+python3 drew.py 
+cd ../
+rm -rf test/
+ls
+git init
+ls -l
+ls -a
+ls -l -a
+git add .
+cd codebase/
+cd sgp30/
+ls -l -a
+rm -rf .git
+sudo rm .git
+sudo rm -rf .git
+ls
+ls -l -a
+cd ../../
+ls
+git add .
+git status
+ls -l -a
+git commit -m "init commit"
+git config --global user.email "richmelchr@gmail.com"
+git config --global user.name "richmelchr"
+git commit -m "init commit"
+git status
+git add .gitconfig 
+git status
+git commit -m "git init"
+git status
+git remote add origin https://github.com/richmelchr/pi.git
+git push -u origin master
+git status
+clear
+python3 codebase/drew.py 
+vi codebase/drew.py 
+python3 codebase/drew.py 
+vi codebase/drew.py 
+python3 codebase/drew.py 
+vi codebase/drew.py 
+python3 codebase/drew.py 
+vi codebase/drew.py 
+python3 codebase/drew.py 
+vi codebase/drew.py 
+python3 codebase/drew.py 
+vi codebase/drew.py 
+python3 codebase/drew.py 
+vi codebase/drew.py 
+python3 codebase/drew.py 
+vi codebase/drew.py 
+python3 codebase/drew.py 
+vi codebase/drew.py 
+python3 codebase/drew.py 
+vi codebase/drew.py 
+python3 codebase/drew.py 
+vi codebase/drew.py 
+python3 codebase/drew.py 
+vi codebase/drew.py 
+python3 codebase/drew.py 
+vi codebase/drew.py 
+python3 codebase/drew.py 
+vi codebase/drew.py 
+python3 codebase/drew.py 
+vi codebase/drew.py 
+python3 codebase/drew.py 
+vi codebase/drew.py 
+python3 codebase/drew.py 
+vi codebase/drew.py 
+python3 codebase/drew.py 
+vi codebase/drew.py 
+python3 codebase/drew.py 
+vi codebase/drew.py 
+python3 codebase/drew.py 
+vi codebase/drew.py 
+python3 codebase/drew.py 
+vi codebase/drew.py 
+python3 codebase/drew.py 
+vi codebase/drew.py 
+python3 codebase/drew.py 
+vi codebase/drew.py 
+python3 codebase/drew.py 
+vi codebase/drew.py 
+python3 codebase/drew.py 
+vi codebase/drew.py 
+python3 codebase/drew.py 
+vi codebase/drew.py 
+python3 codebase/drew.py 
+vi codebase/drew.py 
+python3 codebase/drew.py 
+vi codebase/drew.py 
+python3 codebase/drew.py 
+vi codebase/drew.py 
+python3 codebase/drew.py 
+vi codebase/drew.py 
+python3 codebase/drew.py 
+vi codebase/drew.py 
+python3 codebase/drew.py 
+vi codebase/drew.py 
+python3 codebase/drew.py 
+vi codebase/drew.py 
+python3 codebase/drew.py 
+vi codebase/drew.py 
+python3 codebase/drew.py 
+vi codebase/drew.py 
+python3 codebase/drew.py 
+vi codebase/drew.py 
+python3 codebase/drew.py 
+vi codebase/drew.py 
+python3 codebase/drew.py 
+vi codebase/drew.py 
+python3 codebase/drew.py 
+vi codebase/drew.py 
+python3 codebase/drew.py 
+vi codebase/drew.py 
+python3 codebase/drew.py 
+vi codebase/drew.py 
+python3 codebase/drew.py 
+vi codebase/drew.py 
+python3 codebase/drew.py 
+vi codebase/drew.py 
+python3 codebase/drew.py 
+vi codebase/drew.py 
+python3 codebase/drew.py 
+ls
+git status
+git add .
+git commit -m "store fix"
+git push
+exit
+ls
+vim codebase/drew.py 
+git status
+python3 codebase/drew.py 
+exit
+python3 codebase/drew.py 
+vim codebase/drew.py 
+python3 codebase/drew.py 
+exit
+python3 codebase/drew.py 
