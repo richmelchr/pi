@@ -1341,3 +1341,81 @@ vim codebase/drew.py
 python3 codebase/drew.py 
 exit
 python3 codebase/drew.py 
+ls
+cd codebase/
+ls
+clear
+vim drew.py 
+python3 drew.py 
+ls
+sudo pip install influxdb
+sudo pip3 install influxdb
+ls
+python3 drew.py 
+vim drew.py 
+python3 drew.py 
+vim drew.py 
+python3 drew.py 
+vim drew.py 
+python3 drew.py 
+vim drew.py 
+python3 drew.py 
+vim drew.py 
+python3 drew.py 
+cd ../
+git status
+git add .
+git commit -m "pi sending data to FreeNAS InfluxDB"
+git status
+git push
+ls
+vim codebase/drew.py 
+python3 codebase/drew.py 
+vim codebase/drew.py 
+python3 codebase/drew.py 
+pwd
+cd /
+ls
+ls /home/pi/codebase/drew.py 
+vim /etc/rc.local 
+sudo nano /etc/rc.local 
+vim /etc/rc.local 
+sudo restart now
+sudo reboot now
+ps -aef | grep python
+vim codebase/drew.py 
+python3 codebase/drew.py 
+vim codebase/drew.py 
+exit
+vim codebase/drew.py 
+cd codebase/
+cp drew.py test.py
+vim test.py 
+python3 test.py 
+vim test.py 
+man 2 time
+date
+sudo tzselect
+time
+date
+sudo raspi-config
+date
+sudo reboot now
+time
+clear
+date
+python3 codebase/test.py 
+vim codebase/test.py 
+python3 codebase/test.py 
+vim codebase/drew.py 
+sudo restart now
+sudo reboot now
+vim codebase/drew.py 
+sudo reboot now
+python3 codebase/test.py 
+ls
+cd codebase/
+ls
+clear
+ls
+vi drew.py 

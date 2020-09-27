@@ -28,7 +28,7 @@ dbname = "sensor_data"
 
 # Create the InfluxDB client object
 client = InfluxDBClient(host, port, user, password, dbname)
-measurement = "rpi2"
+measurement = "rpi"
 
 # SenseAir S8 | co2
 ser = serial.Serial("/dev/ttyS0", baudrate=9600, timeout=.5)
@@ -86,6 +86,7 @@ def set_baseline():
 
 def send_data(co2, temp, voc, hum, pres):
     iso = time.ctime()
+    print(iso)
     data = [{
         "measurement":measurement,
         "time":iso,
@@ -97,7 +98,7 @@ def send_data(co2, temp, voc, hum, pres):
             "press":pres
         }
     }]
-    client.write_points(data)
+    #client.write_points(data)
 
 
 try: 
@@ -113,7 +114,7 @@ try:
         co2 = getCO2()
         temp = mcp.readTempC()
 
-        #print('C={0}, T={1}, V={2}, H={3}, P={4}'.format(co2, c_to_f(temp), voc, hum, pres))
+        print('C={0}, T={1}, V={2}, H={3}, P={4}'.format(co2, c_to_f(temp), voc, hum, pres))
 
         store_timer += pollInterval
         #upTime += pollInterval
